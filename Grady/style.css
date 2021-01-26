@@ -1,0 +1,38 @@
+p {
+    color: blue;
+    font-size: 15px;
+}
+
+img {
+    margin: 10;
+}
+
+#title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.details {
+    color: green;
+
+}
+
+#impDetail {
+    color: red;
+}
+
+#image {
+    margin: 5px;
+}
+
+#aboutMeText {
+    display: flex;
+    padding: 10px;
+}
+
+
+* {
+    color: orange;
+}
+
+/* order: *, then types as in h1 or p, then classes, then IDs */
