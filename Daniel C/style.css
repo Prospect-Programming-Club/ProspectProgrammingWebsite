@@ -1,0 +1,21 @@
+h2{
+    color:blue;
+    font:500;
+    margin:5;
+    padding:8px;
+}
+image {
+    margin:50;
+    font-size:10;
+}
+.details {
+    color:green;
+    margin:20;
+}
+*{
+    color:brown;
+}
+a{
+    color:black;
+    font:600;
+}
