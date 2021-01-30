@@ -1,0 +1,20 @@
+.blue{
+    color: blue;
+}
+.topSection{
+    background-color:#a6e4f5;
+    width: 100%;
+
+}
+body{
+    text-align: center;
+    background-color: #FFFF90;
+}
+ul{
+    text-align: center auto;
+    list-style-position: inside;
+}
+hr{ 
+    border: 1.5px dashed;
+    color:#a6e4f5;
+}
