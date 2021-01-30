@@ -1,0 +1,36 @@
+body {
+  background-color: #212121;
+  color: white;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body-title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.body-description {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 100px;
+  width: 500px;
+}
+
+.body-image {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.links {
+  display: flex;
+  column-gap: 50px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 50px;
+}
