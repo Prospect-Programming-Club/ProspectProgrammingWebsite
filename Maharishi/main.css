@@ -20,6 +20,7 @@ body {
 .body-image {
   display: inline-block;
   margin-left: 50px;
+  border-radius: 155px;
 }
 
 .links {
