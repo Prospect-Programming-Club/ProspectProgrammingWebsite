@@ -24,3 +24,10 @@ body{
     color: orange;
 }
 
+.body-text {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 25px;
+}
+
+
