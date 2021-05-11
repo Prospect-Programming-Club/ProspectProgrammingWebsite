@@ -1,17 +1,45 @@
 * {
     box-sizing: inherit;
     margin:auto;
-    color: black;
 }
 
-.weatherDisplay {
 
+.weatherDisplay {
+    display: flex;
+    justify-content: left;
+    align-items: left;
 }
 
 .clockDisplay {
+    padding: 200px;
+}
 
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:green;
 }
 
 .mainContent {
+    border: 5px solid black;
+    padding: 10px;
+}
 
+.right-container {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 200px;
+}
+
+footer {
+    padding-top: 2500px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
 }
