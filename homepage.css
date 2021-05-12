@@ -1,6 +1,13 @@
+* {
+    box-sizing: inherit;
+    margin:auto;
+    background-color: steelblue;
+}
+
+
 .topnav {
   overflow: hidden;
-  background-color: steelblue;
+  background-color: green;
 }
 
 .topnav a {
@@ -10,6 +17,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
+  background: green;
 }
 
 .topnav a:hover {
@@ -18,15 +26,9 @@
 }
 
 .topnav a.active {
-  background-color:steelblue;
+  background-color:green;
   color: white;
 }
-
-* {
-    box-sizing: inherit;
-    margin:auto;
-}
-
 
 .weatherDisplay {
     display: flex;
@@ -49,6 +51,11 @@
 .mainContent {
     border: 5px solid black;
     padding: 10px;
+    color: #b2bac3;
+}
+
+.aboutText {
+  color: white;
 }
 
 .right-container {
