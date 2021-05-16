@@ -1,0 +1,26 @@
+div{
+    float: left;
+    margin: 3% 6%;
+    width: 150;
+    height: 150;
+    border: solid;
+}
+
+body{
+    background-image: url('spotlight.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.row2{
+    float:left;
+}
+
+.clear{
+    clear: both;
+}
