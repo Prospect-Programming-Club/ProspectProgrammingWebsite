@@ -1,5 +1,4 @@
-div{
-    float: left;
+.divbox{
     margin: 3% 6%;
     width: 150;
     height: 150;
@@ -15,22 +14,6 @@ body{
 
 h1{
     text-align: center;
-}
-
-.row2{
-    float:left;
-}
-
-.clear{
-    clear: both;
-}
-
-.box1 {
-  float: right;
-}
-
-.box2 {
-  float: center;
 }
 
 .topnav {
