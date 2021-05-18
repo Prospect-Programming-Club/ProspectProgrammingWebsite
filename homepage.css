@@ -1,9 +1,34 @@
 * {
     box-sizing: inherit;
     margin:auto;
-    background-color:beige
+    background-color: steelblue;
 }
 
+
+.topnav {
+  overflow: hidden;
+  background-color: #089648;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  background: #089648;
+}
+
+.topnav a:hover {
+  background-color: #b2bac3;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:#089648;
+  color: white;
+}
 
 .weatherDisplay {
     display: flex;
@@ -20,12 +45,17 @@
     justify-content: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:green;
+    color:#089648;
 }
 
 .mainContent {
     border: 5px solid black;
     padding: 10px;
+    color: #b2bac3;
+}
+
+.aboutText {
+  color: white;
 }
 
 .right-container {
