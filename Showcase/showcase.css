@@ -1,0 +1,59 @@
+div{
+    float: left;
+    margin: 3% 6%;
+    width: 150;
+    height: 150;
+    border: solid;
+}
+
+body{
+    background-image: url('spotlight.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.row2{
+    float:left;
+}
+
+.clear{
+    clear: both;
+}
+
+.box1 {
+  float: right;
+}
+
+.box2 {
+  float: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #089648;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  background: #089648;
+}
+
+.topnav a:hover {
+  background-color: #b2bac3;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:#089648;
+  color: white;
+}
