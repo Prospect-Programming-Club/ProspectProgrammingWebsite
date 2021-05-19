@@ -60,6 +60,11 @@
   text-align: center;
 }
 
+#about {
+    color: white;
+    text-align: center;
+}
+
 #contact {
     color: white;
     display: grid;
