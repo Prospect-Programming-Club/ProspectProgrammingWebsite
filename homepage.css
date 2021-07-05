@@ -4,10 +4,14 @@
     background-color: steelblue;
 }
 
+:root {
+  --ease: all 0.8s ease 0s;
+}
 
 .topnav {
   overflow: hidden;
   background-color: #089648;
+
 }
 
 .topnav a {
@@ -23,6 +27,8 @@
 .topnav a:hover {
   background-color: #b2bac3;
   color: black;
+  transition: var(--ease);
+  filter: brightness(150%);
 }
 
 .topnav a.active {
