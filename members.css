@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap'); 
 
-.title {
-  font-size: 35px;
+* {
+    box-sizing: inherit;
+    margin:auto;
+    color: white;
 }
 
 :root {
     --ease: all 0.8s ease 0s;
 }
+
+.title {
+  font-size: 35px;
+}
+
+
 
 .topnav {
   overflow: hidden;
@@ -36,11 +44,7 @@
   color: white;
 }
 
-* {
-    box-sizing: inherit;
-    margin:auto;
-    color: white;
-}
+
 
 body{
     background-color:black;
@@ -71,9 +75,8 @@ td a:link, td a:visited {
     color: green;
     text-decoration: none;
 }
-a:hover {
-    border:solid 1px green;
-}
+
+
 a:link:active, a:visited:active {
     color: lightgreen;
 }
