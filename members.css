@@ -5,6 +5,10 @@
   font-size: 35px;
 }
 
+:root {
+    --ease: all 0.8s ease 0s;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #121212;
