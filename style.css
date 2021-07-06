@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap'); */
+/* 
 * {
     box-sizing: inherit;
     margin:auto;
     color: white;
-}
+} */
 
 body{
     background-color:black;
-    margin: 0px;
+    margin: 48px;
     box-sizing:border-box;
 }
+
 header {
     background-color: black;
     height: 80px;
@@ -18,7 +22,12 @@ header {
 h1 {
     color:green;
     font-size: 70px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+p {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 48px;
 }
 
 a{
