@@ -11,7 +11,12 @@
   padding: 20px;
 }
 
-body{
+#join-btn {
+  float: right;
+  transform: translateX(-100px);
+}
+
+body {
   background-color: #121212;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,6 +25,7 @@ body{
 
 h1{
   text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;;
 }
 
 .clear{

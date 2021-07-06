@@ -102,6 +102,11 @@ h1 {
   /* text-align: center; */
 }
 
+#join-btn {
+  float: right;
+  transform: translateX(-100px);
+}
+
 .subbullets {
   font-family: 'Noto Sans KR', sans-serif;
   text-align: left;

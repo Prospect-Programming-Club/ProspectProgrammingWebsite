@@ -7,6 +7,11 @@
     color: white;
 }
 
+#join-btn {
+  float: right;
+  transform: translateX(-100px);
+}
+
 :root {
     --ease: all 0.8s ease 0s;
 }
