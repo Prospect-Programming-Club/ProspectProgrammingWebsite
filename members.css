@@ -60,9 +60,6 @@ p {
     margin: 48px;
 }
 
-a{
-    font-size:20px;
-}
 td a:link, td a:visited {
     color: green;
     text-decoration: none;
