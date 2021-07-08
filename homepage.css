@@ -17,6 +17,8 @@ a:hover {color: lightblue}
 
 .title {
   font-size: 35px;
+  text-align: center;
+  font-weight: 300;
 }
 
 .topnav {
