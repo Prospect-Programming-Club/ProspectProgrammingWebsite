@@ -70,40 +70,22 @@ body{
 
 p {
     font-family: 'Noto Sans KR', sans-serif;
-    /* margin: 48px; */
+    margin: 48px;
 }
 
 td a:link, td a:visited {
-    color: #73ad21;
-    text-decoration: solid;
+    color: green;
+    text-decoration: none;
 }
 
-td a:link:hover {
-    /* background-color: rgb(240, 248, 255); */
-    text-decoration: underline;
-}
-
-a {
-    font-size: 25px;
-    padding: 20px;
-}
 
 a:link:active, a:visited:active {
     color: lightgreen;
 }
 
 th, td{
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-bottom: 100px;
-    /* text-align: center; */
+    padding:5px;
 }
-
-table {
-    text-align: center;
-}
-
 .content {
     text-align: center;
-    padding-top: 100px;
 }
