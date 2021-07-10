@@ -1,0 +1,43 @@
+* {
+    box-sizing: inherit;
+    margin:auto;
+    color: white;
+}
+
+body{
+    background-color:black;
+    margin: 0px;
+    box-sizing:border-box;
+}
+header {
+    background-color: black;
+    height: 80px;
+    padding: 8px;
+    border: 2px solid green;
+}
+h1 {
+    color:green;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    font-size:20px;
+}
+a:link, a:visited {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    border:solid 1px green;
+}
+a:link:active, a:visited:active {
+    color: lightgreen;
+}
+
+th, td{
+    padding:5px;
+}
+.content {
+    text-align: center;
+}
