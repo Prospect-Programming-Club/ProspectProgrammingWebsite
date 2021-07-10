@@ -5,6 +5,7 @@
     box-sizing: inherit;
     margin:auto;
     color: white;
+    /* font-family: 'Noto Sans KR', sans-serif; */
 }
 
 #join-btn {
@@ -35,6 +36,9 @@
   text-decoration: none;
   font-size: 20px;
   background: #121212;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .topnav a:hover {
@@ -49,7 +53,11 @@
   color: white;
 }
 
-
+table a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
 
 body{
     background-color:black;
@@ -73,15 +81,9 @@ p {
     /* margin: 48px; */
 }
 
-td a:link, td a:visited {
-    color: #73ad21;
-    text-decoration: solid;
-}
-
-td a:link:hover {
-    /* background-color: rgb(240, 248, 255); */
-    text-decoration: underline;
-}
+td a:link {color: #66c09b;}
+td a:visited {color: rgb(70, 178, 221)}
+td a:hover {color: lightblue}
 
 a {
     font-size: 25px;
