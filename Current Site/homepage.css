@@ -20,7 +20,10 @@ a:hover {color: lightblue}
 }
 
 .title {
-  font-size: 35px;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .topnav {
@@ -60,7 +63,7 @@ a:hover {color: lightblue}
 }
 
 .mainContent {
-    border: 5px solid black;
+    /* border: 5px solid black; */
     /* padding: 10px; */
     color: #b2bac3;
     text-align: center;
@@ -143,4 +146,3 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
 }
-
