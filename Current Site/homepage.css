@@ -29,7 +29,7 @@ a:hover {color: lightblue}
  */
 
 .title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
@@ -99,7 +99,7 @@ h2, .subcontent {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 700;
 }
 
@@ -110,7 +110,7 @@ p {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 700;
 }
 
