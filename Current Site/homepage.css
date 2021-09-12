@@ -99,7 +99,7 @@ h2, .subcontent {
 }
 
 h2 {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -110,7 +110,7 @@ p {
 }
 
 h1 {
-  font-size: 27px;
+  font-size: 23px;
   font-weight: 700;
 }
 
@@ -129,7 +129,7 @@ h1 {
   font-family: 'Noto Sans KR', sans-serif;
   text-align: left;
   margin-left: 120px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   /* list-style-type: none; */
 }
@@ -139,7 +139,6 @@ h1 {
   font-family: 'Noto Sans KR', sans-serif;
   text-align: left;
   margin-left: 120px;
-  font-size: 18px;
   font-weight: 300;
 }
 
