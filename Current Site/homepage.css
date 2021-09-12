@@ -19,6 +19,15 @@ a:hover {color: lightblue}
   --ease: all 0.8s ease 0s;
 }
 
+/* .logos {
+  height: 25px;
+  width: 25px;
+  float: left;
+  padding: none;
+  margin-left: 60px;
+  /* opacity: 1; */
+ */
+
 .title {
   font-size: 30px;
   font-weight: 300;
@@ -120,8 +129,23 @@ h1 {
   font-family: 'Noto Sans KR', sans-serif;
   text-align: left;
   margin-left: 120px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
+  /* list-style-type: none; */
+}
+
+.subbullets p {
+  margin: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: left;
+  margin-left: 120px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#links li {
+  padding-bottom: 5px;
+  /* list-style-type: none; */
 }
 
 #about {
@@ -144,4 +168,5 @@ footer {
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
+    color: aliceblue;
 }
