@@ -3,7 +3,7 @@
 * {
     box-sizing: inherit;
     /* margin:auto; */
-    background-color: #121212;
+    background-color: white;
 }
 
 body {
@@ -61,8 +61,8 @@ a:hover {color: lightblue}
 }
 
 .topnav a.active {
-  background-color:#121212;
-  color: white;
+  background-color: black;
+  color: black;
 }
 
 .weatherDisplay {
@@ -74,7 +74,7 @@ a:hover {color: lightblue}
 .mainContent {
     /* border: 5px solid black; */
     /* padding: 10px; */
-    color: #ffffff;
+    color: black;
     text-align: center;
 }
 
@@ -116,7 +116,7 @@ h1 {
 
 
 .aboutText {
-  color: white;
+  color: black;
   /* text-align: center; */
 }
 
@@ -148,12 +148,12 @@ h1 {
 }
 
 #about {
-    color: white;
+    color: black;
     text-align: center;
 }
 
 #contact {
-    color: white;
+    color: black;
     /* display: grid;
     justify-content: center;
     align-items: center;     */
