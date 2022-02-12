@@ -3,11 +3,7 @@
 * {
     box-sizing: inherit;
     /* margin:auto; */
-    background-color: white;
-}
-
-body {
-  margin: auto;
+    background-color: whitesmoke;
 }
 
 a:link {color: #66c09b;}
@@ -37,32 +33,32 @@ a:hover {color: lightblue}
 
 .topnav {
   overflow: hidden;
-  background-color: #121212;
+  background-color: cornflowerblue;
 }
 
 .topnav a {
   float: left;
-  color: blue;
+  color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
-  background: #121212;
+  background: cornflowerblue;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 17px;
   font-weight: 500;
 }
 
 .topnav a:hover {
-  background-color: #b2bac3;
+  background-color: whitesmoke;
   color: black;
   transition: var(--ease);
   filter: brightness(150%);
 }
 
 .topnav a.active {
-  background-color: black;
-  color: black;
+  background-color: cornflowerblue;
+  color: cornflowerblue;
 }
 
 .weatherDisplay {
@@ -168,4 +164,8 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     color: aliceblue;
+}
+
+.center {
+  text-align: center;
 }
